@@ -22,8 +22,9 @@ function DoctorAgentCard({ doctorAgent }: props) {
         alt={doctorAgent.specialist}
         width={200}
         height={300}
-        className="w-full h-{250px} object-cover rounded-xl"
+        className='w-full h-[250px] object-cover rounded-xl'
       />
+      
     </div>
   );
 }
